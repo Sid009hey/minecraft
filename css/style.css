@@ -1,0 +1,120 @@
+@font-face{
+	font-family: minecraftia;
+	src: url(../fonts/minecraftia.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: minecraftia;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(https://i.redd.it/8rffym3nkm951.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+} 
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 40px;
+}  
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}  
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+}
+
+.logo h2{
+  float: left;
+  width: 50px;
+  height: auto;
+  margin-top: 20px;	
+}
+
+.main{
+  max-width:1300px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 30px;
+}
+
+.subtitle{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.subtitle h1{
+  color: #fff;
+  font-size: 30px;
+}
+
+.body{
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.body h1{
+  color: #fff;
+  font-size: 20px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1.5px solid #fff;
+  padding: 10px 70px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  font-size:18px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 25px;
+}
+
+.404image{
+
+}
+
+
