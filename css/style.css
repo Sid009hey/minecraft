@@ -45,6 +45,7 @@ ul li a:hover{
   width: 50px;
   height: auto;
   margin-top: 20px;	
+  color: white;
 }
 
 .main{
@@ -111,10 +112,6 @@ ul li a:hover{
   background-color: #fff;
   color: #000;
   border-radius: 25px;
-}
-
-.404image{
-
 }
 
 
